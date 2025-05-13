@@ -1,0 +1,15 @@
+.tagline {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tagline h1 {
+    font-size: 2rem;
+    color: #153448;
+    font-weight: 600;
+    max-width: 70%;
+}
