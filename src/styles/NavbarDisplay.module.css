@@ -1,0 +1,89 @@
+/* Layout wrapper */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background-color: #ffffff;
+  border-right: 1px solid #dfd0b8;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Sidebar header */
+.sidebarHeader {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sidebarLogo {
+  height: 90px;
+}
+
+/* Sidebar menu */
+.sidebarMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebarMenu h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #153448;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+
+.sidebarMenu .activeButtonSidebar {
+  border: 2px solid #3C5B6F;
+  background-color: #f0f0f0;
+  color: #3C5B6F;
+  font-weight: bold;
+}
+
+/* Buttons */
+.sidebarMenu button {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  color: #153448;
+  padding: 10px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.sidebarMenu button:hover {
+  background: linear-gradient(to right, #3c5b6f, #153448);
+  color: #ffffff;
+  transform: translateX(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Create Account Button */
+.BtnCreateAcc {
+  background: linear-gradient(to right, #3c5b6f, #153448);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.BtnCreateAcc:hover {
+  background: #3c5b6f;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}

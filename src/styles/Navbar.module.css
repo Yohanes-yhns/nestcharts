@@ -1,0 +1,122 @@
+/* Navbar */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/* Kiri: logo + menu */
+.navbarLeft {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.navLinks ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.navLinks a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #153448;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+    color: #DFD0B8;
+}
+
+/* Wrapper dropdown */
+.navbar .dropdown {
+  position: relative;
+}
+
+/* Konten dropdown */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  padding: 30px 40px;
+  min-width: 520px;
+  display: flex;
+  gap: 30px;
+  border: 1px solid #DFD0B8;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Dropdown column */
+.dropdownColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+  border-right: 1px solid #DFD0B8;
+  padding-right: 20px;
+}
+
+.dropdownColumn:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+/* Menu links */
+.dropdownContent a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #153448;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #DFD0B8;
+  transition: all 0.25s ease;
+}
+
+.dropdownContent a:hover {
+  color: #ffffff;
+  background-color: #3C5B6F;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+/* Aktifkan saat hover */
+.navbar .dropdown:hover .dropdownContent,
+.navbar .dropdownContent:hover {
+  display: flex;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+/* Tombol Upgrade */
+.creatAccBtn {
+    margin-left: auto;
+}
+
+.BtnCreateAcc {
+    background: linear-gradient(to right, #3C5B6F, #153448);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.BtnCreateAcc:hover {
+    background: #3C5B6F;
+}

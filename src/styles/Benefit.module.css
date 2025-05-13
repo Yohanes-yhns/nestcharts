@@ -1,0 +1,84 @@
+.benefitSection {
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .benefitBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  .benefitBox1  :global(.material-symbols-outlined) {
+    font-size: 100px;
+    color: #153448;
+  }
+  
+  .benefitBox1  h1 {
+    color: #153448;
+    font-size: 30px;
+  }
+  
+  .benefitBox1  h2 {
+    color:#3C5B6F;
+    font-size: 15px;
+  }
+  
+  .benefitBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  .benefitBox2  :global(.material-symbols-outlined) {
+    font-size: 100px;
+    color: #153448;
+  }
+  
+  .benefitBox2  h1 {
+    color: #153448;
+    font-size: 30px;
+  }
+  
+  .benefitBox2  h2 {
+    color:#3C5B6F;
+    font-size: 15px;
+  }
+
+  .benefitBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  .benefitBox3  :global(.material-symbols-outlined) {
+    font-size: 100px;
+    color: #153448;
+  }
+  
+  .benefitBox3  h1 {
+    color: #153448;
+    font-size: 30px;
+  }
+  
+  .benefitBox3  h2 {
+    color:#3C5B6F;
+    font-size: 15px;
+  }
+  
