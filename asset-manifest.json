@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nestcharts.github.io/static/css/main.d6c4cced.css",
+    "main.js": "/nestcharts.github.io/static/js/main.45253cd6.js",
+    "static/js/453.956bb20c.chunk.js": "/nestcharts.github.io/static/js/453.956bb20c.chunk.js",
+    "index.html": "/nestcharts.github.io/index.html",
+    "main.d6c4cced.css.map": "/nestcharts.github.io/static/css/main.d6c4cced.css.map",
+    "main.45253cd6.js.map": "/nestcharts.github.io/static/js/main.45253cd6.js.map",
+    "453.956bb20c.chunk.js.map": "/nestcharts.github.io/static/js/453.956bb20c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6c4cced.css",
+    "static/js/main.45253cd6.js"
+  ]
+}
