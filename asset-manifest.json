@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nestcharts.github.io/static/css/main.4ffe127c.css",
-    "main.js": "/nestcharts.github.io/static/js/main.9dd75990.js",
+    "main.css": "/nestcharts.github.io/static/css/main.18f45664.css",
+    "main.js": "/nestcharts.github.io/static/js/main.59b9923f.js",
     "static/js/453.956bb20c.chunk.js": "/nestcharts.github.io/static/js/453.956bb20c.chunk.js",
     "index.html": "/nestcharts.github.io/index.html",
-    "main.4ffe127c.css.map": "/nestcharts.github.io/static/css/main.4ffe127c.css.map",
-    "main.9dd75990.js.map": "/nestcharts.github.io/static/js/main.9dd75990.js.map",
+    "main.18f45664.css.map": "/nestcharts.github.io/static/css/main.18f45664.css.map",
+    "main.59b9923f.js.map": "/nestcharts.github.io/static/js/main.59b9923f.js.map",
     "453.956bb20c.chunk.js.map": "/nestcharts.github.io/static/js/453.956bb20c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ffe127c.css",
-    "static/js/main.9dd75990.js"
+    "static/css/main.18f45664.css",
+    "static/js/main.59b9923f.js"
   ]
 }
