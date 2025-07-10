@@ -1,0 +1,237 @@
+.exploreSection {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .exploreBtn {
+    margin-top: 50px;
+    width: 350px;
+    height: 75px;
+    background: linear-gradient(135deg, #DFD0B8 0%, #948979 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .exploreBtn:hover {
+    color:#153448;
+   }
+   
+   .exploreBtn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .exploreBtn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+   @media (min-width: 359px) and (max-width: 480px) {
+ .exploreSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .exploreBtn {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(135deg, #DFD0B8 0%, #948979 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .exploreBtn:hover {
+    color:#153448;
+   }
+   
+   .exploreBtn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .exploreBtn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+}
+
+   @media (min-width: 481px) and (max-width: 576px) {
+ .exploreSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .exploreBtn {
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    background: linear-gradient(135deg, #DFD0B8 0%, #948979 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .exploreBtn:hover {
+    color:#153448;
+   }
+   
+   .exploreBtn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .exploreBtn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+}
+
+   @media (min-width: 577px) and (max-width: 992px) {
+ .exploreSection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .exploreBtn {
+    margin-top: 10px;
+    width: 170px;
+    height: 40px;
+    background: linear-gradient(135deg, #DFD0B8 0%, #948979 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .exploreBtn:hover {
+    color:#153448;
+   }
+   
+   .exploreBtn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .exploreBtn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+}
+
+   @media (min-width: 993px) and (max-width: 1200px) {
+ .exploreSection {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .exploreBtn {
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+    background: linear-gradient(135deg, #DFD0B8 0%, #948979 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .exploreBtn:hover {
+    color:#153448;
+   }
+   
+   .exploreBtn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .exploreBtn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+}

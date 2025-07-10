@@ -1,0 +1,427 @@
+.benefitSection {
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .benefitBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  .benefitBox1  :global(.material-symbols-outlined) {
+    font-size: 100px;
+    color: #153448;
+  }
+  
+  .benefitBox1  h1 {
+    color: #153448;
+    font-size: 30px;
+  }
+  
+  .benefitBox1  h2 {
+    color:#3C5B6F;
+    font-size: 15px;
+  }
+  
+  .benefitBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  .benefitBox2  :global(.material-symbols-outlined) {
+    font-size: 100px;
+    color: #153448;
+  }
+  
+  .benefitBox2  h1 {
+    color: #153448;
+    font-size: 30px;
+  }
+  
+  .benefitBox2  h2 {
+    color:#3C5B6F;
+    font-size: 15px;
+  }
+
+  .benefitBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  .benefitBox3  :global(.material-symbols-outlined) {
+    font-size: 100px;
+    color: #153448;
+  }
+  
+  .benefitBox3  h1 {
+    color: #153448;
+    font-size: 30px;
+  }
+  
+  .benefitBox3  h2 {
+    color:#3C5B6F;
+    font-size: 15px;
+  }
+  
+  @media (min-width: 359px) and (max-width: 480px) {
+  .benefitSection {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  .benefitBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 110px;
+  }
+  .benefitBox1  :global(.material-symbols-outlined) {
+    font-size: 50px;
+    color: #153448;
+  }
+  
+  .benefitBox1  h1 {
+    color: #153448;
+    font-size: 11px;
+  }
+  
+  .benefitBox1  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+  
+  .benefitBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 110px;
+  }
+  .benefitBox2  :global(.material-symbols-outlined) {
+    font-size: 50px;
+    color: #153448;
+  }
+  
+  .benefitBox2  h1 {
+    color: #153448;
+    font-size: 11px;
+  }
+  
+  .benefitBox2  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+
+  .benefitBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 110px;
+  }
+  .benefitBox3  :global(.material-symbols-outlined) {
+    font-size: 50px;
+    color: #153448;
+  }
+  
+  .benefitBox3  h1 {
+    color: #153448;
+    font-size: 11px;
+  }
+  
+  .benefitBox3  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+}
+
+  @media (min-width: 481px) and (max-width: 576px) {
+  .benefitSection {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  .benefitBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 130px;
+  }
+  .benefitBox1  :global(.material-symbols-outlined) {
+    font-size: 60px;
+    color: #153448;
+  }
+  
+  .benefitBox1  h1 {
+    color: #153448;
+    font-size: 12px;
+  }
+  
+  .benefitBox1  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+  
+  .benefitBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 130px;
+  }
+  .benefitBox2  :global(.material-symbols-outlined) {
+    font-size: 60px;
+    color: #153448;
+  }
+  
+  .benefitBox2  h1 {
+    color: #153448;
+    font-size: 12px;
+  }
+  
+  .benefitBox2  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+
+  .benefitBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 130px;
+  }
+  .benefitBox3  :global(.material-symbols-outlined) {
+    font-size: 60px;
+    color: #153448;
+  }
+  
+  .benefitBox3  h1 {
+    color: #153448;
+    font-size: 12px;
+  }
+  
+  .benefitBox3  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+}
+
+  @media (min-width: 577px) and (max-width: 992px) {
+  .benefitSection {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .benefitBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+  }
+  .benefitBox1  :global(.material-symbols-outlined) {
+    font-size: 70px;
+    color: #153448;
+  }
+  
+  .benefitBox1  h1 {
+    color: #153448;
+    font-size: 12px;
+  }
+  
+  .benefitBox1  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+  
+  .benefitBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+  }
+  .benefitBox2  :global(.material-symbols-outlined) {
+    font-size: 70px;
+    color: #153448;
+  }
+  
+  .benefitBox2  h1 {
+    color: #153448;
+    font-size: 12px;
+  }
+  
+  .benefitBox2  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+
+  .benefitBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+  }
+  .benefitBox3  :global(.material-symbols-outlined) {
+    font-size: 70px;
+    color: #153448;
+  }
+  
+  .benefitBox3  h1 {
+    color: #153448;
+    font-size: 12px;
+  }
+  
+  .benefitBox3  h2 {
+    color:#3C5B6F;
+    font-size: 8px;
+  }
+}
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+  .benefitSection {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .benefitBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+  }
+  .benefitBox1  :global(.material-symbols-outlined) {
+    font-size: 90px;
+    color: #153448;
+  }
+  
+  .benefitBox1  h1 {
+    color: #153448;
+    font-size: 16px;
+  }
+  
+  .benefitBox1  h2 {
+    color:#3C5B6F;
+    font-size: 14px;
+  }
+  
+  .benefitBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+  }
+  .benefitBox2  :global(.material-symbols-outlined) {
+    font-size: 90px;
+    color: #153448;
+  }
+  
+  .benefitBox2  h1 {
+    color: #153448;
+    font-size: 16px;
+  }
+  
+  .benefitBox2  h2 {
+    color:#3C5B6F;
+    font-size: 14px;
+  }
+
+  .benefitBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+  }
+  .benefitBox3  :global(.material-symbols-outlined) {
+    font-size: 90px;
+    color: #153448;
+  }
+  
+  .benefitBox3  h1 {
+    color: #153448;
+    font-size: 16px;
+  }
+  
+  .benefitBox3  h2 {
+    color:#3C5B6F;
+    font-size: 14px;
+  }
+}

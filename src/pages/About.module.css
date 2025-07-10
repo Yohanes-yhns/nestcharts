@@ -1,0 +1,26 @@
+/* About.module.css */
+.aboutContainer {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #153448;
+  background-color: #fdfdfd;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  color: #948979;
+  font-size: 1.5rem;
+}
+
+.section p,
+.section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section ul {
+  padding-left: 1.5rem;
+}

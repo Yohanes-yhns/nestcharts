@@ -1,0 +1,156 @@
+.chartContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.chartContainer p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #153448;
+  margin-bottom: 30px;
+}
+
+.chartRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 50px;
+  padding: 20px 0;
+  width: calc(350px * 3 + 50px * 2); /* 3 box + 2 gaps */
+  max-width: 100%;
+}
+
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #153448;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10;
+  background: none;
+  border: none;
+}
+
+.arrowButton:hover {
+  color: #3c5b6f;
+}
+
+.arrowButton.left {
+  left: 30px;
+}
+
+.arrowButton.right {
+  right: 30px;
+}
+
+.chartBox {
+  flex: 0 0 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.chartBox h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #3c5b6f;
+}
+
+.chartBox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 359px) and (max-width: 480px) {
+.chartContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.chartContainer p {
+  font-size: 17px;
+  font-weight: 700;
+  color: #153448;
+  margin-bottom: 5px;
+}
+
+.chartRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 20px 0;
+  width: calc(350px * 3 + 50px * 2); /* 3 box + 2 gaps */
+  max-width: 100%;
+}
+
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #153448;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+  background: none;
+  border: none;
+}
+
+.arrowButton:hover {
+  color: #3c5b6f;
+}
+
+.arrowButton.left {
+  left: 30px;
+}
+
+.arrowButton.right {
+  right: 30px;
+}
+
+.chartBox {
+  flex: 0 0 10%;
+  min-width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.chartBox h1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #3c5b6f;
+}
+
+.chartBox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+}

@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  max-width: 90%;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+
+.chartCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 400px;
+  background-color: #fafafa;
+  flex: 1 1 400px;
+  height: 100%; 
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+
+.editButton {
+  padding: 0.4rem 0.8rem;
+  background-color: #3c5b6f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  padding: 0.4rem 0.8rem;
+  background-color: #b0413e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

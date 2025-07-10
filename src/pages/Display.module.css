@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chartFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.chartCard {
+  background-color: #fff;
+  border: 1px solid #dfd0b8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+  flex: 1 1 350px; /* minimal 300px, bisa melebar */
+  max-width: 350px; /* biar nggak terlalu besar */
+  height: 325px;
+  transition: transform 0.3s ease;
+}
+
+.chartCard:hover {
+  transform: translateY(-10px);
+  background-color: #f4f4f4;
+}
+
+.chartTitle {
+  text-align: center;
+  color: #153448;
+  font-size: 15px;
+}
+
+.emptyState {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (min-width: 359px) and (max-width: 1200px) {
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chartFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.chartCard {
+  background-color: #fff;
+  border: 1px solid #dfd0b8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+  flex: 1 1 300px; /* minimal 300px, bisa melebar */
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.chartCard:hover {
+  transform: translateY(-10px);
+  background-color: #f4f4f4;
+}
+
+.chartTitle {
+  text-align: center;
+  color: #153448;
+  font-size: 15px;
+}
+
+.emptyState {
+  text-align: center;
+  margin-top: 50px;
+}
+}

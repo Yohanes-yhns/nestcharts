@@ -1,0 +1,63 @@
+.footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 1rem;
+    color: #153448;
+    font-weight: 500;
+    max-width: 70%;
+}
+
+@media (min-width: 359px) and (max-width: 480px) {
+  .footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 10px;
+    color: #153448;
+    font-weight: 500;
+    max-width: 70%;
+}
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+  .footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 10px;
+    color: #153448;
+    font-weight: 500;
+    max-width: 70%;
+}
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .footer h1 {
+    font-size: 13px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .footer h1 {
+    font-size: 14px;
+}
+}

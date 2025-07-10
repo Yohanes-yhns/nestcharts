@@ -1,0 +1,303 @@
+/* Container utama untuk seluruh halaman */
+.container {
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bagian editor (input) */
+.editorText {
+  width: 98vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height: 50px;
+}
+
+.titleInputWrapper {
+  margin-left: 10px;
+}
+/* Input untuk judul chart */
+.chartTitleLabel {
+  font-size: 12px;
+  font-weight: bold;
+  color: #153448;
+  margin-right: 5px;
+}
+
+.chartTitleInput {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #153448;
+  width: 250px;
+}
+
+.chartTitleInput:focus {
+  border-color: #3c5b6f;
+}
+
+.xyAxisGroupLabel {
+  font-size: 12px;
+  font-weight: bold;
+  color: #153448;
+  margin-right: 5px;
+}
+
+.xyAxisGroupInput {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #153448;
+  width: 150px;
+}
+
+.fontSelector {
+  font-family: "Poppins", sans-serif;
+  color: #153448;
+}
+
+.fontDropdown {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: Poppins, sans-serif;
+  color: #153448;
+  font-size: 12px;
+}
+
+.fontSizeInput {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: Poppins, sans-serif;
+  color: #153448;
+  font-size: 12px;
+}
+
+.titleControls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.alignmentButtons,
+.styleControls {
+  display: flex;
+  gap: 8px;
+}
+
+.alignButton,
+.styleButton {
+  display: flex; /* Flexbox */
+  align-items: center; /* Vertikal: tengah */
+  justify-content: center; /* Horizontal: tengah */
+  width: 36px; /* Ukuran tombol */
+  height: 36px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0;
+}
+
+.alignButton:hover,
+.styleButton:hover {
+  background-color: #ddd;
+}
+
+.active {
+  background-color: #ccc;
+}
+
+.colorPicker {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Wrapper untuk editor dan chart */
+.editorChartWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 98vw;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.editorChart {
+  width: 30%;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.chartInput {
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+}
+
+.chart {
+  width: 70%;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-height: 500px;
+}
+
+.chartTitle {
+  font-size: 14px;
+  color: #153448;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.sectionChartColor {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.chartColor {
+  font-size: 12px;
+  font-weight: bold;
+  color: #153448;
+  margin-bottom: 5px;
+}
+
+.axisGroupInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.axisGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.axisGroup label {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #153448;
+}
+
+.axisGroup input {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #153448;
+}
+
+/* Tabel input */
+.inputTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.inputTable th,
+.inputTable td {
+  padding: 6px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.inputTable th {
+  background-color: #dfd0b8;
+  color: #153448;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.inputTable td input {
+  padding: 4px;
+  width: 70px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.inputTable td input:focus {
+  border-color: #3c5b6f;
+}
+
+/* Tombol untuk menambah baris */
+.addButton {
+  background-color: #3c5b6f;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  display: block;
+  margin: 10px auto;
+}
+
+.addButton:hover {
+  background-color: #2a4153;
+}
+
+.removeButton {
+  background-color: #3c5b6f;
+  color: white;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.removeButton:hover {
+  background-color: #2a4153;
+}
+
+
+/* Bagian chart */
+
+/* Tombol Download */
+.downloadButton {
+  background-color: #3c5b6f;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 20px auto;
+  display: block;
+}
+
+.downloadButton:hover {
+  background-color: #2a4153;
+}
