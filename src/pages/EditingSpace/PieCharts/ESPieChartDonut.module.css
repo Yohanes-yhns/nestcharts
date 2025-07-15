@@ -266,3 +266,145 @@
 .saveButton:hover {
   background-color: #2a4153;
 }
+
+@media (max-width: 768px) {
+  .editorText {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .titleInputWrapper,
+  .xyAxisGroup,
+  .fontSelector,
+  .fontSizeWrapper,
+  .titleControls,
+  .styleControls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .titleInputWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .chartTitleInput,
+  .xyAxisGroupInput,
+  .fontDropdown,
+  .fontSizeInput {
+    width: 100%;
+    font-size: clamp(11px, 1.2vw, 14px);
+    min-width: 200px;
+    box-sizing: border-box;
+  }
+
+  .alignmentButtons,
+  .styleControls {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .colorPicker {
+    align-self: flex-start;
+  }
+
+  .editorChartWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0 10px 2rem;
+  }
+
+  .editorChart,
+  .chart {
+    width: 100%;
+  }
+
+  .inputTable td input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .addButton,
+  .removeButton,
+  .saveButton {
+    font-size: 13px;
+    padding: 6px 12px;
+    width: 100%;
+  }
+
+  .titleInputWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: auto;
+  }
+  
+  .downloadButton {
+    max-width: 40vw;
+  }
+
+  .alignButton,
+  .styleButton {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile kecil: ≤ 480px */
+@media (max-width: 480px) {
+  .chartTitleLabel,
+  .xyAxisGroupLabel,
+  .chartColor {
+    font-size: 10px;
+  }
+
+  .chartTitleInput,
+  .xyAxisGroupInput {
+    font-size: 11px;
+  }
+
+  .addButton,
+  .removeButton,
+  .saveButton {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .downloadButton {
+    max-width: 40vw;
+  }
+
+  .alignButton,
+  .styleButton {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .editorText {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .titleInputWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: auto;
+  }
+}
+

@@ -59,7 +59,7 @@ function AllCharts() {
   const checkIfScrollable = (ref) => {
     if (ref.current) {
       const boxes = ref.current.querySelectorAll(`.${styles.chartBox}`).length;
-      return boxes > 3;
+      return boxes > 2;
     }
     return false;
   };
