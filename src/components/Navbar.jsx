@@ -49,63 +49,10 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
-                to="/saved-chart"
-                onClick={(e) => {
-                  e.preventDefault();
-                  showChartInfoAlert();
-                }}
-              >
-                My Charts
-              </Link>
-            </li>
-
-            <li>
               <Link to="/about">About</Link>
             </li>
           </ul>
         </nav>
-      </div>
-
-      <div className={styles.createAccBtn}>
-        {token ? (
-          <>
-            <span className={styles.welcomeText}>Hi, {username}</span>
-            <button
-              onClick={(e) => {
-                e.preventDefault();
-                showChartInfoAlert();
-              }}
-              className={styles.BtnLogOut}
-            >
-              Logout
-            </button>
-          </>
-        ) : (
-          <>
-            <Link
-              to="/log-in"
-              className={styles.BtnLogIn}
-              onClick={(e) => {
-                e.preventDefault();
-                showChartInfoAlert();
-              }}
-            >
-              Log In
-            </Link>
-
-            <Link
-              to="/sign-up"
-              className={styles.BtnSignUp}
-              onClick={(e) => {
-                e.preventDefault();
-                showChartInfoAlert();
-              }}
-            >
-              Sign Up
-            </Link>
-          </>
-        )}
       </div>
     </header>
   );
