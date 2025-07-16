@@ -101,7 +101,18 @@ const ESAreaChartSpline = () => {
         blur: 10,
         opacity: 0.5,
       },
-      toolbar: { show: false },
+      toolbar: {
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
     },
     title: {
       text: chartTitle,

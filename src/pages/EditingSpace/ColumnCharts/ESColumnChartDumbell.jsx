@@ -97,7 +97,18 @@ const ESColumnChartDumbell = () => {
     chart: {
       height: 350,
       type: "rangeBar",
-      toolbar: { show: false },
+      toolbar: {
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
     },
     title: {
       text: chartTitle,

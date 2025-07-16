@@ -77,8 +77,17 @@ const ESPieChartMonochrome = () => {
       chart: {
         type: "pie",
         toolbar: {
-          show: false,
-        },
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
       },
       labels: categories,
       title: {

@@ -46,7 +46,18 @@ const ESRadialChartSemiCircle = () => {
     chart: {
       height: 550,
       type: "radialBar",
-      toolbar: { show: false },
+      toolbar: {
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
       
     },
     plotOptions: {

@@ -101,54 +101,66 @@ const ESAreaChartBasic = () => {
   // ************************************************************
   // CODE DARI APEXCHARTS YANG DIMASUKAN DATANYA MENGGUNAKAN USESTATE************
 
-  const chartOptions = {
-    chart: {
-      height: 350,
-      type: "area",
-      toolbar: { show: false },
+ const chartOptions = {
+  chart: {
+    height: 350,
+    type: "area",
+    toolbar: {
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
     },
-    colors: [lineColor],
+    zoom: {
+      enabled: false,
+    },
+  },
+  colors: [lineColor],
+  title: {
+    text: chartTitle,
+    align: titleAlign,
+    style: {
+      fontWeight: isBold ? "bold" : "normal",
+      fontFamily: fontFamily,
+      color: fontColor,
+      fontSize: `${fontSize}px`,
+    },
+  },
+  dataLabels: { enabled: false },
+  stroke: { curve: "smooth" },
+  grid: {
+    row: { colors: ["#f3f3f3", "transparent"], opacity: 0.5 },
+  },
+  xaxis: {
+    categories: categories,
     title: {
-      text: chartTitle,
-      align: titleAlign,
+      text: xAxisTitle,
       style: {
-        fontWeight: isBold ? "bold" : "normal",
         fontFamily: fontFamily,
-        color: fontColor,
-        fontSize: `${fontSize}px`,
+        colors: "#153448",
+        fontWeight: "600",
       },
     },
-    dataLabels: { enabled: false },
-    stroke: { curve: "smooth" },
-    grid: {
-      row: { colors: ["#f3f3f3", "transparent"], opacity: 0.5 },
-    },
-    xaxis: {
-      categories: categories,
-      title: {
-        text: xAxisTitle,
-        style: {
-          fontFamily: fontFamily,
-          colors: "#153448",
-          fontWeight: "600",
-        },
+    labels: { style: { fontFamily, colors: "#153448" } },
+  },
+  yaxis: {
+    min: 0,
+    tickAmount: 8,
+    title: {
+      text: yAxisTitle,
+      style: {
+        fontFamily: fontFamily,
+        colors: "#153448",
+        fontWeight: "600",
       },
-      labels: { style: { fontFamily, colors: "#153448" } },
     },
-    yaxis: {
-      min: 0,
-      tickAmount: 8,
-      title: {
-        text: yAxisTitle,
-        style: {
-          fontFamily: fontFamily,
-          colors: "#153448",
-          fontWeight: "600",
-        },
-      },
-      labels: { style: { fontFamily, colors: "#153448" } },
-    },
-  };
+    labels: { style: { fontFamily, colors: "#153448" } },
+  },
+};
+
 
   const chartSeries = [{ name: "Custom Series", data }];
 

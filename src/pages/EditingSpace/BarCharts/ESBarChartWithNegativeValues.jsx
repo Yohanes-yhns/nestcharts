@@ -98,7 +98,18 @@ const ESBarChartWithNegativeValues = () => {
       height: 350,
       type: "bar",
       stacked: true,
-      toolbar: { show: false },
+      toolbar: {
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
     },
     plotOptions: {
       bar: {

@@ -65,7 +65,18 @@ const ESLineChartStepLine = () => {
     chart: {
       height: 350,
       type: "line",
-      toolbar: { show: false },
+      toolbar: {
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
     },
     colors: [lineColor],
     title: {

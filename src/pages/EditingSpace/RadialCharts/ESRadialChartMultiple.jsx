@@ -108,8 +108,17 @@ const ESRadialChartMultiple = () => {
       chart: {
         type: "radialBar",
         toolbar: {
-          show: false,
-        },
+      show: false,
+      tools: {
+        zoom: false,
+        zoomin: false,
+        zoomout: false,
+        pan: false,
+      },
+    },
+    zoom: {
+      enabled: false,
+    },
       },
       labels: categories,
       colors: colors,
